@@ -1,13 +1,11 @@
 import math
 
-def pythagoras (a, b):
-  a, b = 3, 4
-  c = math.sqrt(3**2+4**2)
-  return c
+def pythagoras(a, b):
+  c = math.sqrt(a**2 + b**2)
   print('c = ', c)
+  return c
 
 def circle(r):
-  r = 10
-  area = matt.pi * 10**2
-  return area
+  area = math.pi * r**2
   print('area = ', area)
+  return area
